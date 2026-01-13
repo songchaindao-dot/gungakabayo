@@ -1,0 +1,26 @@
+{
+  "frame": {
+    "version": "1",
+    "name": "Gungakabayo Online Hub",
+    "iconUrl": "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/thumbnail_6e6cdf2a-a8cc-4e8f-868b-8de6b0a9a123-EMrsvoFzpoATmvXTcSgwmCNieC4OxZ",
+    "homeUrl": "https://www.gungakabayo.store",
+    "imageUrl": "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/thumbnail_6e6cdf2a-a8cc-4e8f-868b-8de6b0a9a123-EMrsvoFzpoATmvXTcSgwmCNieC4OxZ",
+    "buttonTitle": "Open with Ohara",
+    "splashImageUrl": "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/farcaster/splash_images/splash_image1.svg",
+    "splashBackgroundColor": "#ffffff",
+    "tags": [
+      "ohara",
+      "mini-app",
+      "base",
+      "farcaster"
+    ],
+    "primaryCategory": "entertainment",
+    "ogTitle": "Gungakabayo Online Hub",
+    "ogImageUrl": "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/thumbnail_6e6cdf2a-a8cc-4e8f-868b-8de6b0a9a123-EMrsvoFzpoATmvXTcSgwmCNieC4OxZ"
+  },
+  "baseBuilder": {
+    "allowedAddresses": [
+      ""
+    ]
+  }
+}
