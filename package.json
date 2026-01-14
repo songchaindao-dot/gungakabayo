@@ -43,6 +43,7 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "date-fns": "^3.6.0",
+    "detect-node-es": "^1.1.0",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.12.1",
     "html2canvas": "^1.4.1",
@@ -70,6 +71,7 @@
   },
   "devDependencies": {
     "@anton-seriesfi/ts-typie": "^3.0.2",
+    "@swc/helpers": "^0.5.18",
     "@types/node": "20.17.47",
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.6",

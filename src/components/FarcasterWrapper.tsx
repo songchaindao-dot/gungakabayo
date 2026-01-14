@@ -1,10 +1,7 @@
-import { ReactNode } from 'react';
-
 type FarcasterWrapperProps = {
-  children: ReactNode;
+  children: any;
 };
 
 export default function FarcasterWrapper({ children }: FarcasterWrapperProps) {
   return <>{children}</>;
 }
-
