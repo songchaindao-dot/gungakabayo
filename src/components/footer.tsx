@@ -55,9 +55,9 @@ export function Footer() {
               <li className="flex items-start space-x-2">
                 <Phone className="w-4 h-4 mt-1 flex-shrink-0" />
                 <div>
-                  <div>0570 095 686</div>
-                  <div>0963 327 772</div>
-                  <div>0950 855 845</div>
+                  <div>+260978246689</div>
+                  <div>+260978945708</div>
+                  <div>+260769061484</div>
                 </div>
               </li>
               <li className="flex items-start space-x-2">
@@ -113,10 +113,9 @@ export function Footer() {
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/70 text-sm">
           <p>&copy; {currentYear} Gungakabayo Enterprise Limited. All rights reserved.</p>
-          <p className="mt-2">Proudly Made in Zambia 🇿🇲</p>
+          <p className="mt-2">Proudly Zambian</p>
         </div>
       </div>
     </footer>
   );
 }
-

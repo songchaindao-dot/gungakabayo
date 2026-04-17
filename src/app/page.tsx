@@ -72,7 +72,7 @@ export default function HomePage() {
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <div className="animate-fade-in">
             <div className="inline-block mb-4 px-4 py-2 bg-[#007A3D] rounded-full text-sm font-medium">
-              🇿🇲 Proudly Made in Zambia
+              Proudly Zambian
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               Feeding the Nation,
@@ -111,6 +111,176 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <ScrollReveal>
+        <section className="py-20 bg-[#F9F5EE]">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#007A3D] mb-4">
+                We Supply Quails, Quail Eggs, and Quail Meat
+              </h2>
+              <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+                Fresh farm supply for homes, retailers, restaurants, and bulk
+                buyers across Zambia.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <Card className="bg-white border-none shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+                <div className="relative h-64 md:h-72 bg-[#F3E7D3] p-3">
+                  <Image
+                    src="/images/quail-eggs-pack.jpg"
+                    alt="Gungakabayo quail eggs packs"
+                    fill
+                    className="object-contain hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="text-2xl font-bold text-[#007A3D] mb-2">
+                    Quail Eggs
+                  </h3>
+                  <p className="text-gray-700">
+                    Clean, healthy, and nutrient-rich eggs supplied in retail
+                    and bulk packs.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-white border-none shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+                <div className="relative h-64 md:h-72 bg-[#F3E7D3] p-3">
+                  <Image
+                    src="/images/quail-single.jpg"
+                    alt="Live quail bird at the farm"
+                    fill
+                    className="object-contain hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="text-2xl font-bold text-[#007A3D] mb-2">
+                    Live Quails
+                  </h3>
+                  <p className="text-gray-700">
+                    Strong, healthy live quails and chicks available for farms
+                    and new growers.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-white border-none shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+                <div className="relative h-64 md:h-72 bg-[#F3E7D3] p-3">
+                  <Image
+                    src="/images/quail-meat-pack.jpg"
+                    alt="Fresh packaged quail meat"
+                    fill
+                    className="object-contain hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="text-2xl font-bold text-[#007A3D] mb-2">
+                    Quail Meat
+                  </h3>
+                  <p className="text-gray-700">
+                    Premium quality quail meat, prepared and packed for family
+                    meals and commercial kitchens.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+              <Card className="bg-white border-none shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+                <div className="relative h-72 md:h-80 bg-[#F3E7D3] p-3">
+                  <Image
+                    src="/images/quail-chicks.jpg"
+                    alt="Healthy quail chicks"
+                    fill
+                    className="object-contain hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="text-2xl font-bold text-[#007A3D] mb-2">
+                    Quail Chicks
+                  </h3>
+                  <p className="text-gray-700">
+                    Reliable supply of vibrant quail chicks for farmers and
+                    distributors.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-white border-none shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+                <div className="relative h-72 md:h-80 bg-[#F3E7D3] p-3">
+                  <Image
+                    src="/images/quail-meat-eggs-display.jpg"
+                    alt="Quail meat and eggs display"
+                    fill
+                    className="object-contain hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="text-2xl font-bold text-[#007A3D] mb-2">
+                    Eggs and Meat Packs
+                  </h3>
+                  <p className="text-gray-700">
+                    Ready-to-market packaging for quail eggs and quail meat
+                    products.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+              <Card className="bg-white border-none shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+                <div className="relative h-72 md:h-80 bg-[#F3E7D3] p-3">
+                  <Image
+                    src="/images/quail-eggs-stack.jpg"
+                    alt="Stacked quail egg packs"
+                    fill
+                    className="object-contain hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="text-2xl font-bold text-[#007A3D] mb-2">
+                    Stacked Egg Packs
+                  </h3>
+                  <p className="text-gray-700">
+                    Professionally packed quail eggs ready for delivery and
+                    retail display.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-white border-none shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+                <div className="relative h-72 md:h-80 bg-[#F3E7D3] p-3">
+                  <Image
+                    src="/images/quail-grey.jpg"
+                    alt="Healthy mature quail bird"
+                    fill
+                    className="object-contain hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="text-2xl font-bold text-[#007A3D] mb-2">
+                    Healthy Quail Stock
+                  </h3>
+                  <p className="text-gray-700">
+                    Quality mature quails from our farm, raised with proper care.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="mt-10 bg-[#007A3D] text-white rounded-2xl p-8 text-center shadow-xl">
+              <p className="text-xl md:text-2xl font-semibold mb-4">
+                Order now from our official company lines
+              </p>
+              <p className="text-lg md:text-xl font-bold">
+                +260978246689 | +260978945708 | +260769061484
+              </p>
+            </div>
+          </div>
+        </section>
+      </ScrollReveal>
 
       <ScrollReveal>
         <section className="py-20 bg-white">
@@ -369,4 +539,3 @@ export default function HomePage() {
     </div>
   );
 }
-

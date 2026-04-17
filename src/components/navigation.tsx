@@ -73,7 +73,7 @@ export function Navigation() {
 
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="tel:0570095686"
+              href="tel:+260978246689"
               className="text-[#007A3D] hover:text-[#D15B2C] transition-colors"
             >
               <Phone className="w-5 h-5" />
@@ -138,11 +138,11 @@ export function Navigation() {
                 </Link>
                 <div className="pt-4 border-t border-gray-200 space-y-3">
                   <a
-                    href="tel:0570095686"
+                    href="tel:+260978246689"
                     className="flex items-center space-x-2 text-[#007A3D]"
                   >
                     <Phone className="w-5 h-5" />
-                    <span>0570 095 686</span>
+                    <span>+260978246689</span>
                   </a>
                   <a
                     href="mailto:Gungakabayo@gmail.com"
@@ -162,4 +162,3 @@ export function Navigation() {
 }
 
 export default Navigation;
-

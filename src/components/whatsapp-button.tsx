@@ -3,12 +3,13 @@
 import { MessageCircle } from "lucide-react";
 
 export function WhatsAppButton() {
-  const phoneNumber = "260570095686";
+  const phoneNumber = "+260978246689";
   const message =
     "Hello Gungakabayo! I would like to inquire about your products.";
 
   const handleClick = () => {
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    const normalizedPhone = phoneNumber.replace(/\D/g, "");
+    const url = `https://wa.me/${normalizedPhone}?text=${encodeURIComponent(
       message
     )}`;
     window.open(url, "_blank");
@@ -24,4 +25,3 @@ export function WhatsAppButton() {
     </button>
   );
 }
-

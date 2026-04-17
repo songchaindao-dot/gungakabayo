@@ -86,26 +86,26 @@ export default function ContactPage() {
                   <div className="space-y-2 text-gray-600">
                     <p>
                       <a
-                        href="tel:0570095686"
+                        href="tel:+260978246689"
                         className="hover:text-[#D15B2C] transition-colors"
                       >
-                        0570 095 686
+                        +260978246689
                       </a>
                     </p>
                     <p>
                       <a
-                        href="tel:0963327772"
+                        href="tel:+260978945708"
                         className="hover:text-[#D15B2C] transition-colors"
                       >
-                        0963 327 772
+                        +260978945708
                       </a>
                     </p>
                     <p>
                       <a
-                        href="tel:0950855845"
+                        href="tel:+260769061484"
                         className="hover:text-[#D15B2C] transition-colors"
                       >
-                        0950 855 845
+                        +260769061484
                       </a>
                     </p>
                   </div>
