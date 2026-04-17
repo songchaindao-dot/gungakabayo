@@ -150,26 +150,6 @@ export default function HomePage() {
                 <div className="relative h-64 md:h-72 bg-[#F3E7D3] p-3">
                   <Image
                     src="/images/quail-single.jpg"
-                    alt="Live quail bird at the farm"
-                    fill
-                    className="object-contain hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-[#007A3D] mb-2">
-                    Live Quails
-                  </h3>
-                  <p className="text-gray-700">
-                    Strong, healthy live quails and chicks available for farms
-                    and new growers.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-white border-none shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
-                <div className="relative h-64 md:h-72 bg-[#F3E7D3] p-3">
-                  <Image
-                    src="/images/quail-meat-pack.jpg"
                     alt="Fresh packaged quail meat"
                     fill
                     className="object-contain hover:scale-105 transition-transform duration-500"
@@ -182,6 +162,26 @@ export default function HomePage() {
                   <p className="text-gray-700">
                     Premium quality quail meat, prepared and packed for family
                     meals and commercial kitchens.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-white border-none shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+                <div className="relative h-64 md:h-72 bg-[#F3E7D3] p-3">
+                  <Image
+                    src="/images/quail-meat-pack.jpg"
+                    alt="Stacked quail egg packs"
+                    fill
+                    className="object-contain hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="text-2xl font-bold text-[#007A3D] mb-2">
+                    Stacked Egg Packs
+                  </h3>
+                  <p className="text-gray-700">
+                    Professionally packed quail eggs ready for delivery and
+                    retail display.
                   </p>
                 </CardContent>
               </Card>
@@ -234,18 +234,18 @@ export default function HomePage() {
                 <div className="relative h-72 md:h-80 bg-[#F3E7D3] p-3">
                   <Image
                     src="/images/quail-eggs-stack.jpg"
-                    alt="Stacked quail egg packs"
+                    alt="Live quail bird at the farm"
                     fill
                     className="object-contain hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-2xl font-bold text-[#007A3D] mb-2">
-                    Stacked Egg Packs
+                    Live Quails
                   </h3>
                   <p className="text-gray-700">
-                    Professionally packed quail eggs ready for delivery and
-                    retail display.
+                    Strong, healthy live quails and chicks available for farms
+                    and new growers.
                   </p>
                 </CardContent>
               </Card>
