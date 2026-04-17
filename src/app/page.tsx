@@ -58,7 +58,7 @@ export default function HomePage() {
       <FloatingShopButton />
       <WhatsAppButton />
 
-      <section className="relative h-screen flex items-center justify-center overflow-hidden pt-20">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-28 pb-20 md:pt-24 md:pb-16">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
@@ -74,7 +74,7 @@ export default function HomePage() {
             <div className="inline-block mb-4 px-4 py-2 bg-[#007A3D] rounded-full text-sm font-medium">
               Proudly Zambian
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-7xl font-bold mb-6 leading-tight">
               Feeding the Nation,
               <span className="text-[#D15B2C]"> Naturally</span>
             </h1>
@@ -82,7 +82,7 @@ export default function HomePage() {
               Gungakabayo Enterprise Limited — Zambia&apos;s trusted name in
               organic and sustainable food production
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6 md:mb-0">
               <Link href="/products">
                 <Button
                   size="lg"
