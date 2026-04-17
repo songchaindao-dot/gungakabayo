@@ -205,7 +205,7 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-[#007A3D]/70 flex items-center justify-center">
             <div className="text-center text-white px-4">
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                Proudly Zambian
+                🇿🇲 Proudly Zambian
               </h2>
               <p className="text-xl md:text-2xl">
                 Sustainable farming practices since 2019

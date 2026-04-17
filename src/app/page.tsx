@@ -72,7 +72,7 @@ export default function HomePage() {
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <div className="animate-fade-in">
             <div className="inline-block mb-4 px-4 py-2 bg-[#007A3D] rounded-full text-sm font-medium">
-              Proudly Zambian
+              🇿🇲 Proudly Zambian
             </div>
             <h1 className="text-4xl md:text-7xl font-bold mb-6 leading-tight">
               Feeding the Nation,
@@ -261,10 +261,11 @@ export default function HomePage() {
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-2xl font-bold text-[#007A3D] mb-2">
-                    Healthy Quail Stock
+                    Mature Live Quails
                   </h3>
                   <p className="text-gray-700">
-                    Quality mature quails from our farm, raised with proper care.
+                    Quality mature live quails from our farm, raised with proper
+                    care.
                   </p>
                 </CardContent>
               </Card>

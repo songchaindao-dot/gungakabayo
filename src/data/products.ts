@@ -30,8 +30,7 @@ export const products: Product[] = [
     quantity: "120,000",
     unit: "trays",
     price: 15.99,
-    image:
-      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/miniapp_cmh11k2e008vnvxlh5u1wg2le_cmh370aic14wmvxlhdf4q6igt-SnbA5uJ1AhgKuqA4ljVdr7ktWD0vGs.jpg?download=1",
+    image: "/images/quail-eggs-pack.jpg",
     description:
       "Premium quail eggs rich in nutrients and protein. Perfect for healthy eating.",
     available: true
@@ -43,10 +42,9 @@ export const products: Product[] = [
     quantity: "200,000",
     unit: "packs",
     price: 12.5,
-    image:
-      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/miniapp_cmh11k2e008vnvxlh5u1wg2le_cmh36zybt14whvxlhdbexdfk8-QdKcZB6IVSVZts6eOianiU5lktV1Q9.jpg?download=1",
+    image: "/images/quail-raw-unpacked.jpg",
     description:
-      "Fresh, pre-packaged quail meat. Lean and delicious protein source.",
+      "Fresh, pre-packaged raw quail meat. Lean and delicious protein source.",
     available: true
   },
   {
@@ -190,9 +188,9 @@ export const products: Product[] = [
     quantity: "10,000",
     unit: "packs",
     price: 14.99,
-    image:
-      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/miniapp_cmh11k2e008vnvxlh5u1wg2le_cmh3727b214xhvxlhclct64db-HvqiiJZFX8EYbf9On8NJLjd7F2KEoB.jpg?download=1",
-    description: "Naturally dried meat products with no preservatives.",
+    image: "/images/quail-prepared-sample.jpg",
+    description:
+      "Prepared serving inspiration showcasing premium quail meat quality.",
     available: true
   },
   {
@@ -274,8 +272,7 @@ export const products: Product[] = [
     quantity: "50,000",
     unit: "chicks",
     price: 2.5,
-    image:
-      "https://usdozf7pplhxfvrl.public.blob.vercel-storage.com/miniapp_cmh11k2e008vnvxlh5u1wg2le_cmh370aic14wmvxlhdf4q6igt-SnbA5uJ1AhgKuqA4ljVdr7ktWD0vGs.jpg?download=1",
+    image: "/images/quail-chicks.jpg",
     description:
       "Healthy quail chicks perfect for starting your own quail farm.",
     available: true
@@ -405,4 +402,3 @@ export const barcodeProducts: BarcodeProduct[] = [
   },
   { id: "sunflower", name: "Sunflower", baseCode: "25753409" }
 ];
-

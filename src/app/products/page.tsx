@@ -109,13 +109,13 @@ export default function ProductsPage() {
                       delay={index * 50}
                     >
                       <Card className="bg-white border-none shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 overflow-hidden">
-                        <div className="relative h-48 overflow-hidden group">
+                        <div className="relative h-48 overflow-hidden group bg-[#F3E7D3] p-2">
                           <Image
                             src={product.image}
                             alt={product.name}
                             fill
                             unoptimized
-                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                            className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                           />
                           <div className="absolute top-3 right-3">
                             <Badge className="bg-[#007A3D] text-white">
@@ -164,4 +164,3 @@ export default function ProductsPage() {
     </div>
   );
 }
-

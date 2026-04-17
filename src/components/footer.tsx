@@ -113,7 +113,7 @@ export function Footer() {
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/70 text-sm">
           <p>&copy; {currentYear} Gungakabayo Enterprise Limited. All rights reserved.</p>
-          <p className="mt-2">Proudly Zambian</p>
+          <p className="mt-2">🇿🇲 Proudly Zambian</p>
         </div>
       </div>
     </footer>
